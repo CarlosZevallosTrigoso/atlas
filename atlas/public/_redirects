@@ -1,5 +1,0 @@
-# Routing SPA: cualquier ruta que no sea /api/* o un asset físico
-# se sirve como index.html. El router del cliente se encarga del resto.
-/api/*    /api/:splat   200
-/atlas/*  /index.html   200
-/*        /index.html   200

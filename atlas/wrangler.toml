@@ -1,0 +1,14 @@
+name = "atlas"
+compatibility_date = "2025-01-01"
+pages_build_output_dir = "public"
+
+# D1 binding
+[[d1_databases]]
+binding = "DB"
+database_name = "atlas-db"
+database_id = "REEMPLAZAR_CON_ID_REAL"   # devuelto por `wrangler d1 create atlas-db`
+
+# R2 binding
+[[r2_buckets]]
+binding = "BLOBS"
+bucket_name = "atlas-blobs"
